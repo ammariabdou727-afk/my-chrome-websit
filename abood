@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>موقعي الأول</title>
+    <meta charset="UTF-8">
+    <title>رسالة حب</title>
     <style>
         body {
-            background-color: pink;
-            font-family: Arial, sans-serif;
-            text-align: center;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Tahoma', sans-serif;
             color: white;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+            background: linear-gradient(135deg, #ff4e50, #f9d423);
+            animation: bgAnimation 6s infinite alternate;
         }
+
+        @keyframes bgAnimation {
+            0% { background: linear-gradient(135deg, #ff4e50, #f9d423); }
+            50% { background: linear-gradient(135deg, #24c6dc, #514a9d); }
+            100% { background: linear-gradient(135deg, #ff6a00, #ee0979); }
+        }
+
         h1 {
-            color: red;
-            font-size: 50px;
+            font-size: 3em;
+            margin: 0;
         }
+
         p {
-            font-size: 24px;
+            font-size: 2em;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
-    <h1>ثباااحوو يا روحييي و احببببك ❤️</h1>
-    <p>هذا أول موقع أسويه بيدي، ويطلع ملون!</p>
+    <h1>ثباااحووو يا روحيي ❤️</h1>
+    <p>احبببك 💕</p>
 </body>
 </html>
